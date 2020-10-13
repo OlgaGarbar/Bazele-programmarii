@@ -1,4 +1,4 @@
-﻿Program Perimetr_treugolinica;
+Program Perimetr_treugolinica;
   Var 
     a,b,c: word;
       P:Integer;

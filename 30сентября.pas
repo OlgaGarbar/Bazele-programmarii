@@ -1,4 +1,4 @@
-﻿Program Calculareaani;
+﻿Program CalculareaAni;
 Var
     A, L, Z, O: word;
    

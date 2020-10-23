@@ -1,13 +1,10 @@
-﻿Program меняем_числа;
+﻿Program  eliminarea_cifrelor_din_mijloc;
 Var
     A, B: integer;
-   
 Begin
     Write('Introduceti numar, care constituie din 4 cifre=  ');
     Read(A);
     Writeln;
-    B:=((A mod 10) * 1000 + ( A mod 100) div 10 * 100 +(( A mod 1000 ) div 100)* 10+ (A div 1000));
+    B:=((A div 1000) * 10 + (A mod 10));
     Writeln(' последовательность чисел=  ' , B );
 End.
-    
-    
